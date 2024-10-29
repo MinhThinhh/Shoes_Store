@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+.header{
+    z-index: 999;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+.header-logo{
+    padding-top: 70px;
+}
+/* TOP-BAR */
+.top-bar{
+    /* background-color: #efcac1; */
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    height: 70px;
+    line-height: 70px;
+}
+/* .top-bar-icon{
+    padding-right: 150px;
+    font-size: 25px;
+    color: #fff;
+} */
+.icon-item{
+    padding-left: 10px;
+}
+.top-bar-sig{
+    padding-left: 150px;
+}
+.top-bar-sig .login{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+.login:hover{
+    opacity: 0.6;
+}
+
+
+/* HEADER-NAV */
+.header-nav{
+    /* padding-right: 150px; */
+    margin-right: 150px;
+}
+.nav{
+    padding-right: 70px;
+}
+.nav .nav-item{
+    line-height: 56px; 
+    margin: 15px 5px 0 0; 
+    position: relative;
+    
+}
+.nav-item .list_con{
+    position: absolute;
+    list-style: none;
+    background-color: #ebc1ce;
+    top: 55px;
+    width: 155px;
+    padding: 0;
+    display: none;
+}
+.nav .nav-item:hover .list_con{
+    display: block;
+}
+.list_con li{
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 40px;
+}
+.list_con li:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.list_con a{
+    color: #fff;
+}
+.list_con a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_link{
+    border: 1px solid transparent;  
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+    padding: 5px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+.nav_link:hover{ 
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* TOP-BAR-ICON */
+.top-bar-icon{
+    color: #fff;
+    font-size: 17px;
+}
+.icon-item:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* HEADER-SEARCH */
+.logo{
+    margin-left: 140px;
+}
+#input-search{
+    max-height: 45px;
+    max-width: 550px;
+    border-radius: 30px;
+    margin: 82px 0 0 205px;
+}
+.icon{
+    font-size: 25px;
+    margin: 92px 5px 0 -40px;
+    /* color: #fff; */
+}
+.map{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.map a{
+    color: #000;
+}
+.map a:hover{
+    text-decoration: none;
+}
+.Gucci1{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.card-product{
+    gap: 15px;
+}
+.card{
+    margin-top: 20px;
+}
+.card:hover{
+    border: 1px solid red;
+}
+
+/* footer */
+
+.footer{
+    background-color: #f3f3f3;
+    margin-top: 80px;
+    height: 200px;
+}
+.footer-container{
+    align-items: center;
+    height: 100%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact a{
+    color: #000;
+}
+.contact a:hover{
+    text-decoration: none;
+}
+.footer-contact, .footer-customer, .footer-pay{
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-customer a{
+    color: #000;
+}
+.footer-customer a:hover{
+    text-decoration: none;
+}

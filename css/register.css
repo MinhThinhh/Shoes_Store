@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    position: relative;
+    color: #fff;
+
+}
+.container-fluid .img{
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+.container-fluid img::before{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.modal-login{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    height: 500px;
+}
+.modal-login .img2{
+    border-radius: 20px;
+}
+.modal_contect{
+    color: #fff;
+    /* display: flex; */
+    /* align-items: center;
+    flex-direction: column; */
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 500px;
+    padding-right: 40px;
+}
+.modal_contect h1{
+    margin-bottom: 25px;
+}
+.login, .Password{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+.email{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+.Password{
+    margin-bottom: 25px;
+}
+.confirm-password{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+.login-password, .login-username{
+    padding: 5px 15px;
+    font-size: 20px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.login-username::placeholder{
+    color: #fff;
+}
+.login-password::placeholder{
+    color: #fff;
+
+}
+.for-got a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.for-got a:hover{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.lick-register{
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.myRegister{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 82px;
+    
+}
+.myRegister:hover{
+    background-color: #FAACA8;
+    color: #fff;
+    text-decoration: none;
+}
+.span{
+    color: #ff0;
+}
+
+

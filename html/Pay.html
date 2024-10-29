@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/pay.js"></script>
+    <link rel="stylesheet" href="../css/pay.css">
+    <link rel="stylesheet" href="../Font/fontawesome-free-6.4.2-web/css/all.min.css">
+    <title>Pay</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header m-0">
+            <div class="col-12 top-bar d-flex justify-content-between p-0">
+                <div class="top-bar-sig">
+                    <a href="./Login.html" class=" login">Đăng nhập</a>
+                    <a href="./register.html" class=" login">Đăng kí</a>
+                </div>
+
+                <div class="header-nav d-flex">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav_link">Trang chủ</a></li>
+                        <li class="nav-item">
+                            <a href="./trademark.html" class="nav_link">Thương hiệu<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="list_con">
+                                <li><a href="./Gucci.html">Gucci</a></li>
+                                <li><a href="./Dior.html">Dior</a></li>
+                                <li><a href="./Lancome.html">Lancome</a></li>
+                                <li><a href="./Chanek.html">Coco Chanek</a></li>
+                                <li><a href="./Klein.html">Calvin Klein</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="./product.html" class="nav_link">Sản phẩm</a></li>
+                        <li class="nav-item"><a href="./About.html" class="nav_link">Giới thiệu</a></li>
+                        <li class="nav-item"><a href="./support.html" class="nav_link">Liên hệ</a></li>
+                    </ul>
+    
+                    <div class="top-bar-icon">
+                        <p class="fa-solid fa-user icon-item " id="myBtn"></p>
+                        <i class="fa-solid fa-cart-shopping icon-item"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row header-logo m-0 border-bottom">
+            <div class="container p-0 header-search d-flex">
+                <img src="../img/logo.png" alt="" class="logo" style="width: 325px;">
+                <input type="text" name="" id="input-search" class="form-control" placeholder="search here">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
+            </div>
+        </div>
+
+        <div class="row m-0 ">
+            <div class="container p-0 Pay " style="max-width: 1224px;">
+                <div class="pay-form">
+                    <div class="form-group ">
+                        <label for="email"><h3>Liên hệ:</h3></label>
+                        <input type="email" class="form-control " placeholder="Email" id="email" style="height: 50px;">
+                        <input type="checkbox" class="mt-3 pr-2" name="" id="">
+                        <label for="">Gửi cho tôi tin tức và ưu đãi qua email</label>
+                    </div>
+
+                    <div class="form-group">
+                        <table >
+                            <tbody> 
+                                <tr>
+                                    <td colspan="2" id="col-internation" >
+                                        <label for="email"><h3>Giao hàng:</h3></label>
+                                        <label for="">
+                                            <span class="text-internation ">Quốc Gia/Vùng</span>
+                                        </label>
+                                        <select name="" id="" class="form-control internation" style="width: 570px; height: 50px;">
+                                            <option value="Việt Nam" class="p-3">Việt Nam</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td colspan="2">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <input type="text" name="ten" id="ten" placeholder="Tên" class="form-control  " style="height: 50px; width: 280px;">
+                                            <input type="text" name="ho" id="ten" placeholder="Họ" class="form-control  " style="height: 50px; width: 280px;">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="address" id="" placeholder="Địa chỉ" class="form-control mt-3" style="height: 50px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="address" id="" placeholder="Căn hộ, phòng, v.v, (không bắt buộc)" class="form-control mt-3" style="height: 50px;">
+                                    </td>
+                                </tr>
+                                <td colspan="2">
+                                    <div class="d-flex justify-content-between mt-3">
+                                        <input type="text" name="" id="" placeholder="Thành phố" class="form-control  " style="height: 50px; width: 280px;">
+                                        <input type="text" name="" id="" placeholder="Mã bưu chính" class="form-control  " style="height: 50px; width: 280px;">
+                                    </div>
+                                </td>
+                                <tr>
+                                    <td>
+                                        <input type="tel" placeholder="Điện thoại" class="form-control mt-3" style="height: 50px;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                          </table>
+                    </div>
+
+                    <div class="form-group  p-0">
+                        <label for="email"><h3 class="mt-3">Phương thức vận chuyển:</h3></label>
+                        <table class=" table table-bordered p-0">
+                            <tr>
+                                <td colspan="2" class="p-0">
+                                    <div class="d-flex  check-shop" style="height: 55px;">
+                                        <div >
+                                            <input id="checkboxShop" class="checkboxShop" name="radio" type="radio" value="Miễn Phí" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <label for="" class="shop">Nhận tại của hàng</label>
+                                        <b id="free">Miễn phí</b>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="p-0">
+                                    <div class="d-flex check-shop" style="height: 55px;">
+                                        <div>
+                                            <input id="checkboxHouse" class="checkboxShop" name="radio" type="radio" value="40.000 đ" style="width: 20px; height: 20px;">
+                                        </div>
+                                        <label for="" class="house">Giao hàng tận nơi</label>
+                                        <b id="free">40.000 ₫</b>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"><h3 class="mt-3">Thanh toán:</h3></label>
+                        <div class="form-control p-0 " style="margin-bottom: 40px;">
+                            <div class="d-flex border-bottom" style="height: 55px;">
+                                <div >
+                                    <input id="checkbox" name="radio" type="radio" style="width: 20px; height: 20px;">
+                                </div>
+                                <label for="" class="shop">Thẻ tín dụng</label>
+                                <div class="d-flex pay-img">
+                                    <img class="border mr-1" src="../img/thanhtoan1.png" alt="" style="height: 24px; width: 38px;">
+                                    <img class="border mr-1" src="../img/thanhtoan2.png" alt="" style="height: 24px; width: 38px;">
+                                    <img class="border mr-1" src="../img/thanhtoan4.png" alt="" style="height: 24px; width: 38px;">
+                                </div>
+                            </div>
+                            <div class="border-bottom price-card">
+                                <table >
+                                    <tbody> 
+                                        <tr>
+                                            <td>
+                                                <input type="text" name="address" id="" placeholder="Số thẻ" class="form-control mt-3 " style="height: 50px; width: 540px; margin-left: 14px; ">
+                                            </td>
+                                        </tr>
+                                        <td colspan="2">
+                                            <div class="d-flex justify-content-between mt-3">
+                                                <input type="text" name="" id="" placeholder="Ngày hết hạn (MM/YY)" class="form-control " style="height: 50px; width: 265px; margin-left: 14px;">
+                                                <input type="text" name="" id="" placeholder="Mã bảo mật" class="form-control  " style="height: 50px; width: 265px;">
+                                            </div>
+                                        </td>
+                                        <tr>
+                                            <td>
+                                                <input type="tel" placeholder="Tên trên thẻ" class="form-control mt-3 mb-3" style="height: 50px; width: 540px; margin-left: 14px; ">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                            <div class="d-flex  " style="height: 55px;">
+                                <div>
+                                    <input id="checkbox" name="radio" type="radio" style="width: 20px; height: 20px;">
+                                </div>
+                                <label for="" class="house">Tiền mặt</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="./Login.html" class="myPay">Thanh toán ngay</a>
+                </div>
+
+
+                <div class="pay-product">
+                    <img class="large-image" src="../img/product5.jpg" alt="" style="height: 300px;">
+                    <H3 class="ten">Tên:</H3>
+                    <p class="gia">Giá:</p>
+                    <p>số lượng: 1</p>
+                    <p class="vanChuyen">Vận chuyển:</p>
+                    <b class="tong">Tổng:</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

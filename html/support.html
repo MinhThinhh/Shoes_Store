@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact&Support</title>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/support.css">
+    <link rel="stylesheet" href="../css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Font/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- This is Header -->
+        <div class="row header m-0">
+            <div class="col-12 top-bar d-flex justify-content-between p-0">
+                <div class="top-bar-sig">
+                    <a href="./Login.html" class=" login">Đăng nhập</a>
+                    <a href="./register.html" class=" login">Đăng kí</a>
+                </div>
+
+                <div class="header-nav d-flex">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="./index.html" class="nav_link">Trang chủ</a></li>
+                        <li class="nav-item">
+                            <a href="./trademark.html" class="nav_link">Thương hiệu<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="list_con">
+                                <li><a href="./Gucci.html">Gucci</a></li>
+                                <li><a href="./Dior.html">Dior</a></li>
+                                <li><a href="./Lancome.html">Lancome</a></li>
+                                <li><a href="./Chanek.html">Coco Chanek</a></li>
+                                <li><a href="./Klein.html">Calvin Klein</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="./product.html" class="nav_link">Sản phẩm</a></li>
+                        <li class="nav-item"><a href="./About.html" class="nav_link">Giới thiệu</a></li>
+                        <li class="nav-item"><a href="./support.html" class="nav_link">Liên hệ</a></li>
+                    </ul>
+    
+                    <div class="top-bar-icon">
+                        <p class="fa-solid fa-user icon-item " id="myBtn"></p>
+                        <i class="fa-solid fa-cart-shopping icon-item"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row header-logo m-0">
+            <div class="container p-0 header-search d-flex">
+                <img src="../img/logo.png" alt="" class="logo" style="width: 325px;">
+                <input type="text" name="" id="input-search" class="form-control" placeholder="search here">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
+            </div>
+        </div>
+        <!-- This is Section -->
+        <div class="main-content-support">
+            <div class="row m-0">
+                <div class="container">
+                    <div class="p-0 show-product d-flex">
+                        <a href="./index.html" class="home-map">Trang chủ</a>&#187;<p style="margin-left: 10px; color: #222; font-weight: 400;">Liên hệ & Hỗ Trợ</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--  -->
+            <div class="layout-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="contact">
+                                <h4>
+                                    Nơi giải đáp toàn bộ mọi thắc mắc của bạn?
+                                </h4>
+                                
+                                <div class="title-contact">
+                                    Với sứ mệnh "Khách hàng là ưu tiên số 1" chúng tôi luôn mạng lại giá trị tốt nhất 
+                                </div>
+                                
+                                <div class="time_work">
+                                    <p><strong>HỘ KINH DOANH NƯỚC HOA NIPERFUME</strong></p>
+                                    <p><strong>Mã số thuế:&nbsp;</strong>41W8060917</p>
+                                    <p><strong>Người DDPL:&nbsp;</strong>Lương Tấn Thành</p>
+                                    <p><strong>Ngày hoạt động:&nbsp;</strong>28/1/2023</p>
+                                    <p><strong>Giấy phép kinh doanh:&nbsp;</strong>41W8060917</p>
+                                    <p><strong>Địa chỉ:&nbsp;</strong>TP Hồ Chí Minh</p>
+                                    <p><strong>Điện thoại:&nbsp;</strong><a href="tel:0901250190" title="0901250190">0901 250 190</a></p>
+                                    <p><strong>Email:&nbsp;</strong><a href="mailto:HTperfume.com@gmail.com" title="HTperfume.com@gmail.com">HTperfume.com@gmail.com</a></p>                                    
+                                </div>
+                            </div>
+                            <div class="form-contact">
+                                <h4>Liên hệ với chúng tôi</h4>
+                                <div id="pagelogin">
+                                    <form method="post" action="/postcontact" id="contact" accept-charset="UTF-8">
+                                        <div class="group_contact">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <input placeholder="Họ và tên" type="text" class="form-control  form-control-lg" required="" value="" name="contact[Name]">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <input placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control form-control-lg" required="" id="email1"  value="" name="contact[email]">
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <input placeholder="Điện thoại" type="tel" class="form-control form-control-lg" required="" name="contact[phone]">
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <textarea placeholder="Nội dung" name="contact[body]" id="comment" class="form-control content-area form-control-lg" rows="5" required=""></textarea>
+                                                    <button type="submit" class="btn-lienhe">Gửi thông tin</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                                        
+                        <div class="col-lg-6 col-12">
+                            <div id="contact_map" class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.54192094353!2d106.36488620076405!3d10.754617416830909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2s!4v1690362262148!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- THis is Footer -->
+        <div class="row p-0">
+            <div class="col-12 p-0 footer ">
+                <div class="container footer-container d-flex justify-content-between">
+                    <div class="footer-contact">
+                        <h5>LIÊN HỆ VỚI CHÚNG TÔI</h5>
+                        <div class="contact">
+                            <a href=""><i class="fa-brands fa-facebook p-2"></i>Facebook</a>
+            
+                            <a href=""><i class="fa-brands fa-instagram p-2"></i>Instagram</a>
+                          
+                            <a href=""><i class="fa-solid fa-phone p-2"></i>0827746039</a>
+                        </div>
+                    </div>
+                          
+                    <div class="footer-customer text-center">
+                        <H5>CHĂM SÓC KHÁCH HÀNG</H5>
+                        <a href="">Trung Tâm Trợ Giúp</a>
+                        <a href="">Hướng Dẫn Mua Hàng</a>
+                        <a href="">Chăm Sóc Khách Hàng</a>
+                        <a href="">Trả Hàng & Hoàn Tiền</a>
+                    </div>
+    
+                    <div class="footer-pay">
+                        <h5>THANH TOÁN</h5>
+                        <div>
+                            <img src="../img/thanhtoan1.png" alt="" class="border" style="width: 55px; height: 25px;">
+                            <img src="../img/thanhtoan2.png" alt="" class="border" style="width: 55px; height: 25px;">
+                            <img src="../img/thanhtoan4.png" alt="" class="border" style="width: 55px; height: 25px;">
+                        </div>
+                        <div>
+                            <img src="../img/thanhtoan6.png" alt="" class="border" style="width: 55px; height: 25px;">
+                            <img src="../img/thanhtoan7.png" alt="" class="border" style="width: 55px; height: 25px;">
+                            <img src="../img/thanhtoan8.png" alt="" class="border" style="width: 55px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog" style="max-width: 700px;">
+            <div class="modal-content" style="width: 700px;">
+                <div class="modal-header">
+                    <h1 style="width: 100%; ">Hồ sơ của tui</h1>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div id="avatar-container">
+                            <img id="avatar" src="../img/9cca1fdde1b929e770a8.jpg" alt="Default Avatar">
+                        </div>
+                        
+                        <input type="file" id="file-input" style="display: none;">
+                        <button id="change-avatar">Thay đổi ảnh</button>
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Tên tài khoảng</label>
+                        <input type="text" name="" id="ten" value="LuongTanThanh" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Mật khẩu</label>
+                        <input type="password" name="" id="ten" value="Thanh@321" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Email</label>
+                        <input type="email" name="" id="email" value="lu********@gmail.com" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Số điện thoại</label>
+                        <input type="tel" name="" id="phone" value="********39" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Địa chỉ</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control" style="height: 100px;">Số 30, 72/23/2C, Phường 6, Gò Vấp, Thành phố Hồ Chí Minh</textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnSave" class="btn btn-success btn-block">Đăng xuất</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog" style="max-width: 700px;">
+            <div class="modal-content" style="width: 700px;">
+                <div class="modal-header">
+                    <h1 style="width: 100%; ">Hồ sơ của tui</h1>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div id="avatar-container">
+                            <img id="avatar" src="../img/9cca1fdde1b929e770a8.jpg" alt="Default Avatar">
+                        </div>
+                        
+                        <input type="file" id="file-input" style="display: none;">
+                        <button id="change-avatar">Thay đổi ảnh</button>
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Tên tài khoảng</label>
+                        <input type="text" name="" id="ten" value="LuongTanThanh" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Mật khẩu</label>
+                        <input type="password" name="" id="ten" value="Thanh@321" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Email</label>
+                        <input type="email" name="" id="email" value="lu********@gmail.com" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Số điện thoại</label>
+                        <input type="tel" name="" id="phone" value="********39" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Địa chỉ</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control" style="height: 100px;">Số 30, 72/23/2C, Phường 6, Gò Vấp, Thành phố Hồ Chí Minh</textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnSave" class="btn btn-success btn-block">Đăng xuất</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog" style="max-width: 700px;">
+            <div class="modal-content" style="width: 700px;">
+                <div class="modal-header">
+                    <h1 style="width: 100%; ">Hồ sơ của tui</h1>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div id="avatar-container">
+                            <img id="avatar" src="../img/9cca1fdde1b929e770a8.jpg" alt="Default Avatar">
+                        </div>
+                        
+                        <input type="file" id="file-input" style="display: none;">
+                        <button id="change-avatar">Thay đổi ảnh</button>
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Tên tài khoảng</label>
+                        <input type="text" name="" id="ten" value="LuongTanThanh" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Mật khẩu</label>
+                        <input type="password" name="" id="ten" value="Thanh@321" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Email</label>
+                        <input type="email" name="" id="email" value="lu********@gmail.com" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Số điện thoại</label>
+                        <input type="tel" name="" id="phone" value="********39" class="form-control">
+                    </div>
+                    <div>
+                        <label class="mb-0 mt-2" for="" style="opacity: 0.7;">Địa chỉ</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control" style="height: 100px;">Số 30, 72/23/2C, Phường 6, Gò Vấp, Thành phố Hồ Chí Minh</textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnSave" class="btn btn-success btn-block">Đăng xuất</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#myBtn').click(function(){
+            $('#myModal').modal()
+            })
+        })
+    </script>
+</body>
+</body>
+</html>

@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+.header{
+    z-index: 999;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+.header-logo{
+    padding-top: 70px;
+}
+/* TOP-BAR */
+.top-bar{
+    /* background-color: #efcac1; */
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    height: 70px;
+    line-height: 70px;
+}
+/* .top-bar-icon{
+    padding-right: 150px;
+    font-size: 25px;
+    color: #fff;
+} */
+.icon-item{
+    padding-left: 10px;
+}
+.top-bar-sig{
+    padding-left: 150px;
+}
+.top-bar-sig .login{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+.login:hover{
+    opacity: 0.6;
+}
+
+
+/* HEADER-NAV */
+.header-nav{
+    /* padding-right: 150px; */
+    margin-right: 150px;
+}
+.nav{
+    padding-right: 70px;
+}
+.nav .nav-item{
+    line-height: 56px; 
+    margin: 15px 5px 0 0; 
+    position: relative;
+    
+}
+.nav-item .list_con{
+    position: absolute;
+    list-style: none;
+    background-color: #ebc1ce;
+    top: 55px;
+    width: 155px;
+    padding: 0;
+    display: none;
+}
+.nav .nav-item:hover .list_con{
+    display: block;
+}
+.list_con li{
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 40px;
+}
+.list_con li:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.list_con a{
+    color: #fff;
+}
+.list_con a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.nav_link{
+    border: 1px solid transparent;  
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+    padding: 5px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+.nav_link:hover{ 
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* TOP-BAR-ICON */
+.top-bar-icon{
+    color: #fff;
+    font-size: 17px;
+}
+.icon-item:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* .icon-item:active{
+    scale: 1.1 !important;
+    transform: translateY(-15px) !important;
+} */
+/* HEADER-SEARCH */
+#input-search{
+    max-height: 45px;
+    max-width: 550px;
+    border-radius: 30px;
+    margin: 82px 0 0 205px;
+}
+.icon{
+    font-size: 25px;
+    margin: 92px 5px 0 -40px;
+    /* color: #fff; */
+}
+
+
+.show-product > a {
+    display: inline-block;
+    list-style: none;
+    font-weight: 500;
+    /* font-size: 14px; */
+    color: #888888;
+    margin-right: 10px;
+}
+
+.container-fluid .container {
+    max-width: 1200px;
+}
+
+/* This is Section */
+.main-content {
+    padding-bottom: 85px;
+    min-width: 1367px;
+}
+
+
+
+.blog-title {
+    font-size: 20px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+
+.header-banner.banner-image .banner-wrap {
+	background-image: url(../img/a1.jpg) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+}
+
+.header-banner.banner-image .banner-wrap::after, .header-banner.banner-image .banner-wrap::before {
+	display: table;
+	content: '';
+}
+.header-banner.banner-image .banner-wrap::after {
+	clear: both;
+}
+.header-banner.banner-image .banner-wrap .content-inner {
+	padding-top: 65px;
+	padding-bottom: 65px;
+	float: right;
+}
+.header-banner .title {
+	font-size: 34px;
+	line-height: 1.2;
+	text-align: left;
+	font-style: normal;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.header-banner .sub-title {
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 35px;
+}
+
+
+.button  {
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.button:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #f7b1b1;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+/* iconbox */
+.perfume-iconbox.layout1 {
+	margin-top: 63px;
+}
+.perfume-iconbox.layout1 .icon-item {
+	position: relative;
+	margin-bottom: 15px;
+	color: #0a0a0a;
+}
+.perfume-iconbox.layout1 .icon-item .placeholder-text {
+	font-size: 90px;
+	color: #555;
+	opacity: 0.1;
+	line-height: 1;
+	display: block;
+	font-weight: 500;
+	display: none;
+}
+.perfume-iconbox.layout1 .icon-item .fa-solid {
+	/*position: absolute;*/
+	left: 3px;
+	font-size: 60px;
+	bottom: 20px;
+	color: #ab8e66;
+}
+.perfume-iconbox .content .title {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Jost';
+}
+.perfume-iconbox.layout1 .content .title {
+	color: #222;
+	margin-bottom: 8px;
+}
+.perfume-iconbox.layout1 .iconbox-inner .content .text {
+	color: #888;
+}
+
+/*team-member*/
+.team-member .border-custom {
+	margin-top: 75px;
+}
+
+.border-custom span {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+	/* float: left;  */
+}
+
+.team-member .custom_blog_title {
+	margin-top: 65px;
+	margin-bottom: 50px;
+	text-transform: capitalize;
+}
+.custom_blog_title.center {
+	text-align: center;
+}
+
+
+.HTperfume-team-member {
+	text-align: center;
+	padding: 0 15px;
+}
+.HTperfume-team-member .member_avatar img {
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.HTperfume-team-member .member_name {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Jost';
+	color: #222;
+	margin-top: 20px;
+	margin-bottom: 3px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #f3f3f3;
+    margin-top: 80px;
+    height: 200px;
+}
+.footer-container{
+    align-items: center;
+    height: 100%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact a{
+    color: #000;
+}
+.contact a:hover{
+    text-decoration: none;
+}
+.footer-contact, .footer-customer, .footer-pay{
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-customer a{
+    color: #000;
+}
+.footer-customer a:hover{
+    text-decoration: none;
+}
+
+/* modal */
+#avatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+#change-avatar{
+    border: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
